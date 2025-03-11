@@ -1,0 +1,23 @@
+#img1 {
+
+    border: 5px solid red;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+#img2 {
+
+    border: 5px solid blue;
+    border-radius: 10%;
+    /* height: 500px;
+    width: 600px; */
+
+    opacity: 1; 
+    background-color: blueviolet;
+}
+
+#para1 {
+
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic66o2TYgnRZeukYAsPUNjwf7bu7zpQK6wfInZ7e36trGkVBg8ru1O0fSAX_smRv5A1TIv4pjYeiuDsF1Rc5gH648XHZDSfzg6gUUi_knHZRsuT9sxUqvPBswaaYkz_mOoSslV44AYouA/s1600/ok+photo.jpg);
+    color: red;
+}
