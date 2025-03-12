@@ -1,0 +1,36 @@
+body {
+
+
+    /* background-image: url(../HTML/images/nature2.jpg); */
+
+    /* background-image: url(https://storyblok-cdn.photoroom.com/f/191576/768x432/0f78fe60a2/colors-backgrounds-cover.webp); */
+}
+
+table caption {
+
+    color:blueviolet;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+table {
+
+    border: 3px solid red;
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+    /* padding: 10px; */
+
+    
+}
+
+table thead tr th {
+
+    border: 2px solid blue;
+    padding: 2px;
+}
+
+table tbody tr td {
+
+    border: 2px solid blueviolet;
+    padding: 2px;
+}
