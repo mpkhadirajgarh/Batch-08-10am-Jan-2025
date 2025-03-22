@@ -36,7 +36,7 @@ console.log(typeof d);
 
 let e;
 
-console.log(typeof e); // undefined 
+console.log(typeof e); // undefined  
 
 
 
