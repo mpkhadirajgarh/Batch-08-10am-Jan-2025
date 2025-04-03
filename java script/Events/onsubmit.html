@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onsubmit</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quod quidem laudantium, asperiores corporis saepe? Esse, porro? Inventore minus repellendus ab sit impedit itaque quas, recusandae est voluptates incidunt et.</p>
+
+
+    <form action="#" method="get" onsubmit="alertme()">
+
+        <label for="sname">Student Name</label>
+        <input type="text" name="sname" id="sname">
+
+        <button>Submit</button>
+    </form>
+    <script>
+
+        function alertme(){
+
+            confirm('Are you sure to submit ?')
+        }
+    </script>
+</body>
+</html>
