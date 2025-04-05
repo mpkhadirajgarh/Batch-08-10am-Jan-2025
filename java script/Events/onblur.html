@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onblur event</title>
+</head>
+<body>
+    <h1>Learning Events </h1>
+
+    <label for="Sname"><strong>Student Name:</strong></label>
+
+    <input type="text" id="Sname">
+
+    <script>
+        const StudentName = document.getElementById('Sname');
+
+        StudentName.addEventListener("focus", function () {
+this.style.background = 'yellow'
+
+        })
+
+        StudentName.addEventListener("blur", function () {
+this.style.background = 'lightgreen'
+
+        })
+
+ 
+    </script>
+    
+</body>
+</html>

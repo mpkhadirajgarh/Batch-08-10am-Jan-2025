@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Onfocus Event </title>
+</head>
+<body>
+
+    <h1>Onfocus & onblur Event in js </h1>
+
+   <label for="sname">Student Name:</label>
+
+   <input type="text" name="sname" id="sname" 
+   onfocus="myfocus(this)" 
+   onblur="myblur(this)">
+
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reiciendis perferendis hic, rerum, ad molestias dignissimos repellendus rem adipisci recusandae amet ipsum culpa necessitatibus, soluta sunt. Asperiores sed quisquam distinctio?</p>
+
+    <script>
+function myfocus(){
+    // bg.style.background = 'green'
+    document.getElementById('sname').style.backgroundColor = 'Blue'
+
+    document.getElementById('sname').style.color = 'red';
+}
+
+function myblur(bg){
+
+    bg.style.background = 'black';
+
+    bg.style.color = ' white'
+
+}
+
+
+    </script>
+    
+</body>
+</html>
